@@ -39,10 +39,6 @@ resource "aws_lambda_function" "s3_sftp_bridge_lambda" {
     }
   }
 
-  lifecycle {
-    ignore_changes = ["source_code_hash"]
-  }
-
   depends_on = ["module.py_s3_sftp_bridge"]
 
 }
