@@ -1,7 +1,7 @@
 data "aws_caller_identity" "current" {}
 
 module "py_s3_sftp_bridge" {
-  source = "github.com/full360/py-s3-sftp-bridge?ref=47e05be35"
+  source = "github.com/full360/py-s3-sftp-bridge?ref=1019dfcd8db"
 }
 
 ###############################################################################
